@@ -65,6 +65,12 @@ class Grafo {
       }
       std::cout << "\n\n";
     }
+
+    void mat_inc() {
+      std::vector<std::vector<int>> inc(V.size(), std::vector<int>(A.size(), 0));
+
+      
+    }
 };
 
 int main() {
